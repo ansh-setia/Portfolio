@@ -1,0 +1,148 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+  * {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+
+  html {
+    scroll-behavior: smooth;
+  }
+
+  body {
+    font-family: 'Inter', sans-serif;
+    background: #0a0a0a;
+    color: #ffffff;
+    overflow-x: hidden;
+  }
+}
+
+@layer components {
+  /* Gradient Text (for headings) */
+  .text-gradient {
+    background: linear-gradient(135deg, #00D4FF, #B847FF);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    background-clip: text;
+    background-size: 200% 200%;
+    animation: textShimmer 6s ease-in-out infinite;
+  }
+
+  /* Glassmorphism Card */
+  .glass-card {
+    border: 1px solid rgba(255, 255, 255, 0.08);
+    border-radius: 16px;
+    background: rgba(255, 255, 255, 0.04);
+    backdrop-filter: blur(12px);
+    transition: transform 0.3s ease, border-color 0.3s ease;
+  }
+  .glass-card:hover {
+    border-color: rgba(0, 212, 255, 0.4);
+    transform: translateY(-6px);
+  }
+
+  /* Glow Border Effect */
+  .glow-border {
+    position: relative;
+    border-radius: 12px;
+    background: rgba(0, 0, 0, 0.4);
+    backdrop-filter: blur(8px);
+    transition: all 0.3s ease;
+  }
+  .glow-border:hover {
+    box-shadow: 0 0 20px rgba(0, 212, 255, 0.5);
+    border-color: rgba(0, 212, 255, 0.6);
+  }
+
+  /* Cyber Grid (background layer) */
+  .cyber-grid {
+    background-image: 
+      linear-gradient(rgba(0, 212, 255, 0.06) 1px, transparent 1px),
+      linear-gradient(90deg, rgba(184, 71, 255, 0.06) 1px, transparent 1px);
+    background-size: 60px 60px;
+    animation: grid-move 25s linear infinite;
+  }
+
+  /* Floating Gradient Orbs */
+  .floating-orb {
+    position: absolute;
+    border-radius: 50%;
+    background: linear-gradient(135deg, rgba(0, 212, 255, 0.08), rgba(184, 71, 255, 0.08));
+    filter: blur(50px);
+    animation: orb-float 18s ease-in-out infinite;
+  }
+  .orb-1 { width: 260px; height: 260px; top: 15%; left: -8%; }
+  .orb-2 { width: 180px; height: 180px; bottom: 20%; right: -6%; }
+  .orb-3 { width: 220px; height: 220px; top: 60%; left: 40%; }
+
+  /* Fade-in Animations */
+  .animate-fade-in-up {
+    animation: fadeInUp 1s ease-out forwards;
+    opacity: 0;
+    transform: translateY(20px);
+  }
+  .animate-fade-in-left {
+    animation: fadeInLeft 1s ease-out forwards;
+    opacity: 0;
+    transform: translateX(-20px);
+  }
+  .animate-fade-in-right {
+    animation: fadeInRight 1s ease-out forwards;
+    opacity: 0;
+    transform: translateX(20px);
+  }
+
+  /* Subtle Hover */
+  .hover-scale {
+    transition: transform 0.3s ease;
+  }
+  .hover-scale:hover {
+    transform: scale(1.05);
+  }
+}
+
+/* Keyframes */
+@keyframes textShimmer {
+  0%, 100% { background-position: 0% 50%; }
+  50% { background-position: 100% 50%; }
+}
+
+@keyframes fadeInUp {
+  to { opacity: 1; transform: translateY(0); }
+}
+@keyframes fadeInLeft {
+  to { opacity: 1; transform: translateX(0); }
+}
+@keyframes fadeInRight {
+  to { opacity: 1; transform: translateX(0); }
+}
+
+@keyframes orb-float {
+  0%, 100% { transform: translate(0, 0); }
+  50% { transform: translate(30px, -30px); }
+}
+
+@keyframes grid-move {
+  0% { transform: translate(0, 0); }
+  100% { transform: translate(60px, 60px); }
+}
+
+/* Sleek Scrollbar */
+::-webkit-scrollbar {
+  width: 6px;
+}
+::-webkit-scrollbar-track {
+  background: #111;
+}
+::-webkit-scrollbar-thumb {
+  background: linear-gradient(180deg, #00D4FF, #B847FF);
+  border-radius: 6px;
+}
+::-webkit-scrollbar-thumb:hover {
+  background: linear-gradient(180deg, #00B4D8, #9333EA);
+}
+  
