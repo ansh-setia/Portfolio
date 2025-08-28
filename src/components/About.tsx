@@ -73,7 +73,7 @@ const About = () => {
       duration: "2022-2026",
       grade: "CGPA: 7.9 (Till 7th Sem)",
       status: "Current",
-      logo: "/public/images/CULOGO.jpg",
+      logo: "/images/CULOGO.jpg",
       description: "Specializing in Software Engineering, Data Structures, Algorithms, and Modern Web Technologies",
       highlights: ["Software Engineering", "UI/UX Design", "Full Stack Development", "Community Leadership"]
     },
@@ -84,7 +84,7 @@ const About = () => {
       location: "Uttar Pradesh, India",
       duration: "2021-2022",
       status: "Completed",
-      logo: "/public/images/dps_logo.jpg",
+      logo: "/images/dps_logo.jpg",
       description: "Strong foundation in Mathematics, Physics, Chemistry with Computer Science specialization",
       highlights: ["Mathematics Excellence", "Computer Science", "Analytical Thinking", "Problem Solving"]
     },
@@ -95,7 +95,7 @@ const About = () => {
       location: "Uttar Pradesh, India",
       duration: "2019-2020",
       status: "Completed",
-      logo: "/public/images/dps_logo.jpg",
+      logo: "/images/dps_logo.jpg",
       description: "Scout and guide, Badminton, cricket, and basketball player with a keen interest in extracurricular activities",
       highlights: ["Mathematics Excellence", "Computer Science", "Sports & Activities"]
     },
@@ -115,8 +115,8 @@ const About = () => {
         "Facilitated partnerships with 10+ startups"
       ],
       skills: ["Innovation Strategy", "Community Building", "Program Management", "Startup Ecosystem"],
-      logo: "/public/images/IMP.webp",
-      photos: ["/public/images/imp1.jpg", "/public/images/imp2.jpg"],
+      logo: "/images/IMP.webp",
+      photos: ["/images/imp1.jpg", "/images/imp2.jpg"],
       impact: "500+ Students Engaged"
     },
     {
@@ -132,8 +132,8 @@ const About = () => {
         "Built ambassador network of 25+ students"
       ],
       skills: ["Brand Strategy", "Content Creation", "Digital Marketing", "Event Management"],
-      logo: "/public/images/Launched.png",
-      photos: ["/public/images/Launched1.jpg", "/public/images/Launched2.jpg"],
+      logo: "/images/Launched.png",
+      photos: ["/images/Launched1.jpg", "/images/Launched2.jpg"],
       impact: "300% Brand Engagement Growth"
     },
     {
@@ -149,8 +149,8 @@ const About = () => {
         "Facilitated industry expert sessions"
       ],
       skills: ["Strategic Leadership", "Technical Event Curation", "Team Development", "Industry Relations"],
-      logo: "/public/images/Techno.png",
-      photos: ["/public/images/tech1.jpg", "/public/images/tech2.jpg"],
+      logo: "/images/Techno.png",
+      photos: ["/images/tech1.jpg", "/images/tech2.jpg"],
       impact: "25+ Technical Workshops Organized"
     },
     {
@@ -166,8 +166,8 @@ const About = () => {
         "Led event team of 50+ volunteers"
       ],
       skills: ["Large-scale Event Management", "Stakeholder Relations", "Community Building", "Celebrity Collaborations"],
-      logo: "/public/images/ec.png",
-      photos: ["/public/images/ec1.jpg", "/public/images/ec2.jpg"],
+      logo: "/images/ec.png",
+      photos: ["/images/ec1.jpg", "/images/ec2.jpg"],
       impact: "8,000+ Student Community Built"
     },
   ];
