@@ -51,8 +51,8 @@ const Navigation = () => {
               </a>
             ))}
             <a
-              href="/Gray and White Simple Professional Marketing Manager CV Resume.pdf"
-              download="Ansh_Setia_Resume.pdf"
+              href="/Resume_Ansh.pdf"
+              download="/Resume_Ansh.pdf"
               className="flex items-center space-x-2 px-4 py-2 rounded-lg bg-cyan-500 text-white hover:bg-cyan-600 transition-all text-sm font-semibold"
             >
               <Download className="h-4 w-4" />

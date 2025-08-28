@@ -247,8 +247,8 @@ const Contact = () => {
               </motion.a>
 
               <motion.a
-                href="/Gray and White Simple Professional Marketing Manager CV Resume.pdf"
-                download="Ansh_Setia_Resume.pdf"
+                href="/Resume_Ansh.pdf"
+                download="Resume_Ansh.pdf"
                 className="flex items-center justify-center gap-3 px-6 py-4 border border-gray-600 text-gray-300 rounded-2xl hover:border-cyan-500 hover:text-cyan-400 transition-all font-medium group"
                 whileHover={{ scale: 1.02, y: -2 }}
                 whileTap={{ scale: 0.98 }}

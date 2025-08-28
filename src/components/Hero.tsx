@@ -1,12 +1,11 @@
 import { motion } from "framer-motion";
-import bg from "../Images/bg.jpeg";
 
 export default function Hero() {
   return (
     <section className="relative flex items-center justify-center h-screen overflow-hidden bg-black">
       {/* Background image */}
       <img
-        src="/public/Images/bg.jpeg"
+        src="/bg.jpeg"
         alt="Background"
         className="absolute inset-0 w-full h-full object-cover opacity-30"
       />
