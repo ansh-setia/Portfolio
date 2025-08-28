@@ -6,7 +6,7 @@ export default function Hero() {
     <section className="relative flex items-center justify-center h-screen overflow-hidden bg-black">
       {/* Background image */}
       <img
-        src="public\Images\bg.jpeg"
+        src="/public/Images/bg.jpeg"
         alt="Background"
         className="absolute inset-0 w-full h-full object-cover opacity-30"
       />
@@ -56,10 +56,7 @@ export default function Hero() {
         >
           <a
             href="#about"
-           className="px-6 py-3 rounded-2xl bg-cyan-500 border-cyan-500 text-black font-bold shadow-lg hover:scale-105 hover:shadow-cyan-500/50 transform transition"
-
-
-
+            className="px-6 py-3 rounded-2xl bg-cyan-500 border-cyan-500 text-black font-bold shadow-lg hover:scale-105 hover:shadow-cyan-500/50 transform transition"
           >
             Explore More
           </a>
